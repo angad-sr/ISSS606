@@ -4,132 +4,132 @@ var userSimilarities = []
 var topUsersPerCluster = {0:[],1:[],2:[],3:[],4:[],5:[],6:[],7:[],8:[],9:[],10:[],11:[],12:[],13:[],14:[],15:[],16:[],17:[],18:[],19:[],20:[],21:[],22:[],23:[],24:[]};
 var clusterCentroids = [];
 
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-ClusterCentroids.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-ClusterCentroids.csv", function(error, data) {
     data.forEach(function(d) {
         clusterCentroids.push(d);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster0.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster0.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[0].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster1.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster1.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[1].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster2.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster2.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[2].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster3.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster3.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[3].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster4.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster4.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[4].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster5.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster5.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[5].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster6.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster6.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[6].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster7.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster7.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[7].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster8.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster8.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[8].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster9.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster9.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[9].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster10.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster10.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[10].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster11.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster11.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[11].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster12.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster12.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[12].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster13.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster13.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[13].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster14.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster14.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[14].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster15.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster15.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[15].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster16.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster16.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[16].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster17.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster17.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[17].push(d.User);
     })
 });1
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster18.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster18.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[18].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster19.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster19.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[19].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster20.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster20.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[20].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster21.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster21.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[21].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster22.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster22.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[22].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster23.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster23.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[23].push(d.User);
     })
 });
-d3.csv("https://raw.githubusercontent.com/AdaptFast/friender/master/Data/TopUsers-Cluster24.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS606/master/Data/TopUsers-Cluster24.csv", function(error, data) {
     data.forEach(function(d) {
         topUsersPerCluster[24].push(d.User);
     })
@@ -142,17 +142,17 @@ function ToggleSelection(element, indicator)
     {
         var selectionElement = element.getElementsByTagName("img")[0].getAttribute("src");
         if (selectionElement.endsWith("thumbsup.png"))
-            element.getElementsByTagName("img")[0].setAttribute("src", "../images/thumbsup_selected.png");
+            element.getElementsByTagName("img")[0].setAttribute("src", "images/thumbsup_selected.png");
         if (selectionElement.endsWith("thumbsup_selected.png"))
-            element.getElementsByTagName("img")[0].setAttribute("src", "../images/thumbsup.png");            
+            element.getElementsByTagName("img")[0].setAttribute("src", "images/thumbsup.png");            
     }
     if (indicator == 0)
     {
         var selectionElement = element.getElementsByTagName("img")[0].getAttribute("src");
         if (selectionElement.endsWith("thumbsdown.png"))
-            element.getElementsByTagName("img")[0].setAttribute("src", "../images/thumbsdown_selected.png");
+            element.getElementsByTagName("img")[0].setAttribute("src", "images/thumbsdown_selected.png");
         if (selectionElement.endsWith("thumbsdown_selected.png"))
-            element.getElementsByTagName("img")[0].setAttribute("src", "../images/thumbsdown.png");  
+            element.getElementsByTagName("img")[0].setAttribute("src", "images/thumbsdown.png");  
     }
     }
 
